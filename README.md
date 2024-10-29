@@ -1,6 +1,21 @@
 # zkl-eswm-ES6
 ZKL Cross-chain messaging library between Ethereum and Solana using Wormhole protocol.
 
+## Overview
+The ZKL Ethereum-Solana Wormhole Messaging module represents a crucial component of the ZKL ecosystem, facilitating secure and efficient cross-chain communication between Ethereum and Solana blockchains. This implementation leverages modern ES6+ standards to provide a robust, maintainable, and highly interoperable solution for cross-chain messaging needs. By utilizing the Wormhole protocol as its foundation, this module ensures reliable message delivery while maintaining the security guarantees essential for cross-chain operations.
+
+## Why ES6?
+Our decision to implement this module using ES6+ standards stems from several key considerations that align with both modern development practices and the broader ZKL ecosystem's architecture. ES6 introduces significant improvements in code organization through modules, enhanced type safety via TypeScript integration, and better asynchronous operation handling through Promises and async/await patterns. These features are particularly crucial in blockchain development, where code reliability and maintainability are paramount. The module system allows for better dependency management and code splitting, while modern JavaScript features enable more expressive and concise code without sacrificing readability or performance.
+
+## Integration with ZKL Ecosystem
+This module is designed to work seamlessly with other ZKL components, particularly the Key Derivation System (KDS) and Zero-Knowledge Layer infrastructure. It shares common cryptographic primitives and standardized interfaces with these components, ensuring consistent behavior across the ecosystem. The module's architecture allows it to participate in ZKL's broader privacy-preserving operations while handling the complexities of cross-chain communication. Through careful interface design and standardized message formats, it maintains compatibility with existing ZKL modules while introducing new capabilities for cross-chain interactions.
+
+## Technical Architecture
+At its core, the module implements a sophisticated message passing system that handles the intricacies of cross-chain communication while maintaining ZKL's security standards. The architecture is built around pure functions and immutable data structures, making the system more predictable and easier to test. The implementation includes robust validation mechanisms, standardized error handling, and comprehensive event logging, all designed to integrate naturally with both blockchain environments and the broader ZKL ecosystem's requirements.
+
+## Security Considerations
+Security is a fundamental aspect of this module's design, particularly given its role in cross-chain operations. The implementation includes comprehensive input validation, secure key handling procedures, and robust error management. By leveraging the Wormhole protocol's proven security model and combining it with ZKL's encryption standards, the module provides a secure channel for cross-chain message passing while maintaining the privacy guarantees expected in the ZKL ecosystem.
+
 ## Installation
 
 ```bash
